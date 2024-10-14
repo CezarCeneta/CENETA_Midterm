@@ -64,7 +64,7 @@ class Instructor extends Person {
 public class UniversityEnrollmentSystem {
     //Method for displaying the details of the Person base class
     static void printDetails(Person p) {
-        p.displayInfo();
+        p.displayInfo(); 
     }
 
     public static void main(String[] args) {
