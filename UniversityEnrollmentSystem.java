@@ -47,7 +47,7 @@ class Instructor extends Person {
     String department;
     double salary;
 
-    //Constructor for the Instructor sub class
+    //Constructor for the Instructor sub-class
     Instructor(String name, int age, String employeeID, String department, double salary) {
         super(name, age); //Calls the base class constructo
         this.employeeID = employeeID;
@@ -55,8 +55,7 @@ class Instructor extends Person {
         this.salary = salary;
     }
 
-    //Override the base class method and add the subclass parameters to be displayed
-    @Override
+    @Override //Override the base class method and add the subclass parameters to be displayed
     void displayInfo() {
         System.out.println("Instructor Name: " + name + "\nAge: " + age + "yrs old" + " \nEmployee ID: " + employeeID + "\nDepartment: " + department + "\nSalary: " + salary + " Pesos" + "\n");
     }
