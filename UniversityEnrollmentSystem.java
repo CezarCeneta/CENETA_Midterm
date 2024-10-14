@@ -71,9 +71,9 @@ public class UniversityEnrollmentSystem {
 
         //Calling out the classes with implements for the methods 
         Student student1 = new Student("John Cezar Ceneta", 20, "231000322", "Computer Engineering", 4);
-        Student student2 = new Student("John Benedict", 19, "231001730", "Computer Science", 5);
-        Instructor instructor1 = new Instructor("Mrs. Sarahlyn", 45, "E001", "Physics", 75000);
-        Instructor instructor2 = new Instructor("Ms. Tanya Carmela", 22, "E002", "Data Structure and Algorithms", 100000);
+        Student student2 = new Student("John Benedict Samodio", 19, "231001730", "Computer Science", 5);
+        Instructor instructor1 = new Instructor("Mrs. Sarahlyn Catimbang", 45, "E001", "Physics", 75000);
+        Instructor instructor2 = new Instructor("Ms. Tanya Carmela Jovillano", 22, "E002", "Data Structure and Algorithms", 100000);
         
         //Displaying the details with the implemented arguments by the set subclasses students and instructors
         printDetails(student1);
